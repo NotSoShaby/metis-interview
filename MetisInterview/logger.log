@@ -1,0 +1,167 @@
+Executing `DbFactChecker.number_of_rows`
+Finished `DbFactChecker.number_of_rows` - Execution time was: 0.08546304702758789 seconds
+Executing `DbFactChecker.number_of_indexes`
+Finished `DbFactChecker.number_of_indexes` - Execution time was: 0.08719754219055176 seconds
+Executing `DbFactChecker.has_primary_key`
+Finished `DbFactChecker.has_primary_key` - Execution time was: 0.08644437789916992 seconds
+Executing `DbFactChecker.primary_key_count_column`
+Finished `DbFactChecker.primary_key_count_column` - Execution time was: 0.08909273147583008 seconds
+"GET /facts/Grades/ HTTP/1.1" 200 5528
+Watching for file changes with StatReloader
+Executing `DbFactChecker.number_of_rows`
+Finished `DbFactChecker.number_of_rows` - Execution time was: 0.08393311500549316 seconds
+Executing `DbFactChecker.number_of_indexes`
+Finished `DbFactChecker.number_of_indexes` - Execution time was: 0.08761858940124512 seconds
+Executing `DbFactChecker.has_primary_key`
+Finished `DbFactChecker.has_primary_key` - Execution time was: 0.08582496643066406 seconds
+Executing `DbFactChecker.primary_key_count_column`
+/home/refael/Desktop/MetisInterview/MetisInterview/main/fact_checker.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Executing `DbFactChecker.number_of_rows`
+Finished `DbFactChecker.number_of_rows` - Execution time was: 0.08609819412231445 seconds
+Executing `DbFactChecker.number_of_indexes`
+Executing `DbFactChecker.number_of_rows`
+Finished `DbFactChecker.number_of_indexes` - Execution time was: 0.08627653121948242 seconds
+Executing `DbFactChecker.has_primary_key`
+Finished `DbFactChecker.number_of_rows` - Execution time was: 0.08579611778259277 seconds
+Executing `DbFactChecker.number_of_indexes`
+Finished `DbFactChecker.has_primary_key` - Execution time was: 0.08832359313964844 seconds
+Executing `DbFactChecker.primary_key_count_column`
+Skipped PK check as this table doesn't have pk
+Finished `DbFactChecker.primary_key_count_column` - Execution time was: 0.00044417381286621094 seconds
+Finished `DbFactChecker.number_of_indexes` - Execution time was: 0.09612512588500977 seconds
+Executing `DbFactChecker.has_primary_key`
+Finished `DbFactChecker.has_primary_key` - Execution time was: 0.08723020553588867 seconds
+Executing `DbFactChecker.primary_key_count_column`
+Skipped PK check as this table doesn't have pk
+Finished `DbFactChecker.primary_key_count_column` - Execution time was: 0.0002777576446533203 seconds
+"GET /facts/Grades/ HTTP/1.1" 200 5590
+Executing `DbFactChecker.number_of_rows`
+Finished `DbFactChecker.number_of_rows` - Execution time was: 0.08829689025878906 seconds
+Executing `DbFactChecker.number_of_indexes`
+Finished `DbFactChecker.number_of_indexes` - Execution time was: 0.09328341484069824 seconds
+Executing `DbFactChecker.has_primary_key`
+Finished `DbFactChecker.has_primary_key` - Execution time was: 0.3097965717315674 seconds
+Executing `DbFactChecker.primary_key_count_column`
+Finished `DbFactChecker.primary_key_count_column` - Execution time was: 0.09927630424499512 seconds
+"GET /facts/Courses/ HTTP/1.1" 200 5535
+Executing `DbRuleChecker.run_all`
+Executing `DbRuleChecker.check_row_number_rule`
+Executing `DbFactChecker.number_of_rows`
+Finished `DbFactChecker.number_of_rows` - Execution time was: 0.0838007926940918 seconds
+Finished `DbRuleChecker.check_row_number_rule` - Execution time was: 0.08513379096984863 seconds
+Executing `DbRuleChecker.check_primary_key`
+Executing `DbFactChecker.has_primary_key`
+Finished `DbFactChecker.has_primary_key` - Execution time was: 0.08689188957214355 seconds
+Finished `DbRuleChecker.check_primary_key` - Execution time was: 0.08841872215270996 seconds
+Executing `DbRuleChecker.pk_with_many_cols`
+Executing `DbFactChecker.primary_key_count_column`
+Finished `DbFactChecker.primary_key_count_column` - Execution time was: 0.0844259262084961 seconds
+Finished `DbRuleChecker.pk_with_many_cols` - Execution time was: 0.08513760566711426 seconds
+Finished `DbRuleChecker.run_all` - Execution time was: 0.26125550270080566 seconds
+"GET /rules/Courses/ HTTP/1.1" 200 5591
+Watching for file changes with StatReloader
+Not Found: /facts/Courses/
+"GET /facts/Courses/ HTTP/1.1" 404 2528
+Not Found: /facts/
+"GET /facts/?tableName=Courses/ HTTP/1.1" 404 2523
+Not Found: /facts
+"GET /facts?tableName=Courses/ HTTP/1.1" 404 2520
+/home/refael/Desktop/MetisInterview/MetisInterview/main/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/refael/Desktop/MetisInterview/MetisInterview/main/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /facts
+"GET /facts?tableName=Courses/ HTTP/1.1" 404 2521
+Not Found: /facts
+"GET /facts?tableName=Courses/ HTTP/1.1" 404 2521
+Not Found: /facts
+"GET /facts?tableName=Courses/ HTTP/1.1" 404 2521
+/home/refael/Desktop/MetisInterview/MetisInterview/main/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /facts
+"GET /facts?table_name=Courses/ HTTP/1.1" 404 2510
+Not Found: /facts
+"GET /facts?table_name=Courses HTTP/1.1" 404 2509
+/home/refael/Desktop/MetisInterview/MetisInterview/main/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/home/refael/Desktop/MetisInterview/MetisInterview/main/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /facts?table_name=Courses HTTP/1.1" 301 0
+Bad Request: /facts/
+"GET /facts/?table_name=Courses HTTP/1.1" 400 5562
+Watching for file changes with StatReloader
+Bad Request: /facts/
+"GET /facts/?table_name=Courses HTTP/1.1" 400 5562
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Executing `DbFactChecker.number_of_rows`
+Finished `DbFactChecker.number_of_rows` - Execution time was: 0.08378005027770996 seconds
+Executing `DbFactChecker.number_of_indexes`
+Finished `DbFactChecker.number_of_indexes` - Execution time was: 0.08476972579956055 seconds
+Executing `DbFactChecker.has_primary_key`
+Finished `DbFactChecker.has_primary_key` - Execution time was: 0.08723664283752441 seconds
+Executing `DbFactChecker.primary_key_count_column`
+Finished `DbFactChecker.primary_key_count_column` - Execution time was: 0.08486533164978027 seconds
+"GET /facts/?tableName=Courses HTTP/1.1" 200 5585
+/home/refael/Desktop/MetisInterview/MetisInterview/main/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /rules/
+Traceback (most recent call last):
+  File "/home/refael/.local/share/virtualenvs/MetisInterview-Jw0Puw9n/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/refael/.local/share/virtualenvs/MetisInterview-Jw0Puw9n/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/refael/.local/share/virtualenvs/MetisInterview-Jw0Puw9n/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/refael/.local/share/virtualenvs/MetisInterview-Jw0Puw9n/lib/python3.9/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/refael/.local/share/virtualenvs/MetisInterview-Jw0Puw9n/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/refael/.local/share/virtualenvs/MetisInterview-Jw0Puw9n/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/refael/.local/share/virtualenvs/MetisInterview-Jw0Puw9n/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/refael/.local/share/virtualenvs/MetisInterview-Jw0Puw9n/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: get() missing 1 required positional argument: 'table_name'
+"GET /rules/?tableName=Courses HTTP/1.1" 500 100919
+Watching for file changes with StatReloader
+Internal Server Error: /rules/
+Traceback (most recent call last):
+  File "/home/refael/.local/share/virtualenvs/MetisInterview-Jw0Puw9n/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/refael/.local/share/virtualenvs/MetisInterview-Jw0Puw9n/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/refael/.local/share/virtualenvs/MetisInterview-Jw0Puw9n/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/refael/.local/share/virtualenvs/MetisInterview-Jw0Puw9n/lib/python3.9/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/refael/.local/share/virtualenvs/MetisInterview-Jw0Puw9n/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/refael/.local/share/virtualenvs/MetisInterview-Jw0Puw9n/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/refael/.local/share/virtualenvs/MetisInterview-Jw0Puw9n/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/refael/.local/share/virtualenvs/MetisInterview-Jw0Puw9n/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: get() missing 1 required positional argument: 'table_name'
+"GET /rules/?tableName=Courses HTTP/1.1" 500 101056
+/home/refael/Desktop/MetisInterview/MetisInterview/main/views.py changed, reloading.
+Watching for file changes with StatReloader
+Executing `DbRuleChecker.run_all`
+Executing `DbRuleChecker.check_row_number_rule`
+Executing `DbFactChecker.number_of_rows`
+Finished `DbFactChecker.number_of_rows` - Execution time was: 0.0857386589050293 seconds
+Finished `DbRuleChecker.check_row_number_rule` - Execution time was: 0.08707261085510254 seconds
+Executing `DbRuleChecker.check_primary_key`
+Executing `DbFactChecker.has_primary_key`
+Finished `DbFactChecker.has_primary_key` - Execution time was: 0.0865180492401123 seconds
+Finished `DbRuleChecker.check_primary_key` - Execution time was: 0.08750367164611816 seconds
+Executing `DbRuleChecker.pk_with_many_cols`
+Executing `DbFactChecker.primary_key_count_column`
+Finished `DbFactChecker.primary_key_count_column` - Execution time was: 0.09080147743225098 seconds
+Finished `DbRuleChecker.pk_with_many_cols` - Execution time was: 0.09191370010375977 seconds
+Finished `DbRuleChecker.run_all` - Execution time was: 0.2694835662841797 seconds
+"GET /rules/?tableName=Courses HTTP/1.1" 200 5641
